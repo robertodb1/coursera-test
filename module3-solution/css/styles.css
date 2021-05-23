@@ -3,7 +3,10 @@ body {
   font-family: 'Oxygen', sans-serif;  
 }
 
-/** HEADER **/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
 #header-nav {
   background-color: #f6b319;
   border-radius: 0;
@@ -11,6 +14,9 @@ body {
 }
 #nav-list{
   text-align: center;
+  border: 2px solid #662D91;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 #item{
   border-bottom: 2px solid #662D91; 
